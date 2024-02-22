@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organizational Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .inventory {
+            color: #007bff;
+        }
+
+        .profit {
+            color: #28a745;
+        }
+
+        .loss {
+            color: #dc3545;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>DK private limiteds</h1>
+    </header>
+
+    <section>
+        <h2 class="inventory">Inventory Information</h2>
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+            </tr>
+            <tr>
+                <td>Product A</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Product B</td>
+                <td>75</td>
+            </tr>
+            <!-- Add more rows as needed -->
+        </table>
+    </section>
+
+    <section>
+        <h2 class="profit">Profit Information</h2>
+        <p>Current Month Profit: $50,000</p>
+        <p>Previous Month Profit: $45,000</p>
+    </section>
+
+    <section>
+        <h2 class="loss">Loss Information</h2>
+        <p>Current Month Loss: $10,000</p>
+        <p>Previous Month Loss: $8,000</p>
+    </section>
+
+</body>
+</html>
